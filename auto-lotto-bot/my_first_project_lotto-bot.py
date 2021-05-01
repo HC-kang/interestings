@@ -5,8 +5,8 @@ from selenium.webdriver.support.select import Select
 
 
 # ID, PW 입력
-ID = 'weston0713'
-PW = 'q1w2e3r4!@#'
+ID = 'userID'
+PW = 'password'
 
 # 웹드라이버는 설치하면 땡이 아니고 폴더안에 넣어주고 매번 실행하는거더라,, 몰랐음.
 DRIVER_PATH = '/Users/heechankang/projects/pythonworkspace/auto-lotto-bot/chromedriver' # 크롬드라이버 위치 지정
