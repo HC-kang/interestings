@@ -11,7 +11,7 @@ screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption('Nado game') # 게임 이름 
 
 # 배경이미지 불러오기
-#background = pygame.image.load('/Users/heechankang/projects/pygame_basic/TEST.jpg')
+background = pygame.image.load('/Users/heechankang/projects/pythonworkspace/git_study/interestings/pygame_basic/TEST.jpg')
 
 # 프로그램 실행은 되지만 내용이 없어서 바로 꺼짐.
 # 이벤트 루프   
@@ -21,7 +21,7 @@ while running:
         if event.type == pygame.QUIT: # 창이 닫히는 이벤트가 발생하였는가?
             running = False # 게임이 실행중이 아님
 
-    screen.fill((0,0,255)) # 배경화면 파랗게
+    #screen.fill((0,0,255)) # 배경화면 파랗게
     screen.blit(background, (0, 0)) # 배경 그리기
 
     pygame.display.update() # 게임화면 계속 그리기
