@@ -9,7 +9,7 @@ ID = 'userID'
 PW = 'password'
 
 # 웹드라이버는 설치하면 땡이 아니고 폴더안에 넣어주고 매번 실행하는거더라,, 몰랐음.
-DRIVER_PATH = '/Users/heechankang/projects/pythonworkspace/auto-lotto-bot/chromedriver' # 크롬드라이버 위치 지정
+DRIVER_PATH = '/Users/heechankang/projects/pythonworkspace/git_study/interestings/auto-lotto-bot/chromedriver' # 크롬드라이버 위치 지정
 driver = webdriver.Chrome(executable_path=DRIVER_PATH) # DRIVER_PATH에 있는 크롬드라이버를 켜라는건가?
 
 # 동행복권 로그인 창 접속
